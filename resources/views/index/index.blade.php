@@ -14,11 +14,11 @@
     
 </div>
 <div class="col-10 m-auto">
-<table class="table table-bordered table-dark text-center">
+<table class="table table-bordered text-center">
     @csrf
-    <thead>
+    <thead class="thead-dark">
       <tr>
-        <th scope="col">Id</th>
+        <th scope="col" >Id</th>
         <th scope="col">Nome</th>
         <th scope="col">Email</th>
         <th scope="col">Estado</th>

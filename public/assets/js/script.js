@@ -1,5 +1,6 @@
 (function(win,doc){
 'use strict';
+    
     function confirmDel(event){
         event.preventDefault();
         let url = event.target.parentNode.href;
@@ -26,3 +27,22 @@
     }
 
 })(window,document);
+$(document).ready(function(){
+    $("table").dataTable({
+        "language": {
+            "lengthMenu": "Exibindo _MENU_ registros por pagina",
+            "zeroRecords": "Nenhum registro encontrado",
+            "info": "Exibindo pg _PAGE_ de _PAGES_",
+            "infoEmpty": "Nenhum registro disponível",
+            "infoFiltered": "(filtrado de _MAX_ registros totais)",
+            "search":"Pesquisar",
+            "paginate": {
+                "first":      "Primeiro",
+                "last":       "Último",
+                "next":       "Próximo",
+                "previous":   "Anterior"
+            },
+        }
+    } );
+})
+    
