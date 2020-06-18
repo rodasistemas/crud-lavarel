@@ -8,8 +8,8 @@
     <a href="{{url("cliente/$user->id/edit")}}">
         <button class="btn btn-primary">Editar</button>
     </a>
-    <a href="{{url("cliente/$user->id")}}" class="btn-group btn-del">
-        <button class="btn btn-danger">Excluir</button>
+    <a href="{{url("cliente/$user->id")}}" class="btn-group">
+        <button class="btn btn-danger btn-del">Excluir</button>
     </a>
     <a href="javascript:history.go(-1);">
         <button class="btn btn-warning">Voltar</button>
