@@ -15,6 +15,7 @@
         <button class="btn btn-warning">Voltar</button>
     </a>
 </div>
+@csrf
 <div class="col-8 m-auto">
     <div class="row">
         <span class="col-2"><b>Nome:</b></span>
