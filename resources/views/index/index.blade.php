@@ -58,7 +58,7 @@
                         if($item->estado =='São Paulo' && $planfree==true){
                             echo '';
                         }else{
-                            echo '<a href="{{url("cliente/'.$item->id.'")}}" class="btn-group btn-del"><button class="btn btn-sm btn-danger">Excluir</button></a>';
+                            echo '<a href="{{url("cliente//'.$item->id.'")}}" class="btn-group btn-del"><button class="btn btn-sm btn-danger">Excluir</button></a>';
                         }
                     @endphp
                     
