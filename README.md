@@ -1,7 +1,7 @@
 # teste-crud
  Crud em Lavarel
 
-###Sistema e Lógica
+### Sistema e Lógica
 
 O Sistema foi desenvolvido em Lavarel com a utilização de um banco de dados em MySQL.
 O Dump do Banco de Dados encontra-se na raiz do diretório. O sistema foi desenvolvido utilizando o pattern MVC tendo o Lavarel como Framework. O Banco de Dados está setado para o DB_Name de crud e Utiliza o usuário como crud e senha crud123. Então para a utilização do sistema é necessário a criação do banco de dados, ou então a utilização do Artisan para migrar as tabelas.
