@@ -1,13 +1,13 @@
 # teste-crud
- Crud em Lavarel
+ Crud em Laravel
 
 ### Sistema e Lógica
 
-O Sistema foi desenvolvido em Lavarel com a utilização de um banco de dados em MySQL. O Dump do Banco de Dados encontra-se na raiz do diretório. 
+O Sistema foi desenvolvido em Laravel com a utilização de um banco de dados em MySQL. O Dump do Banco de Dados encontra-se na raiz do diretório. 
 
-O sistema foi desenvolvido utilizando o pattern MVC tendo o Lavarel como Framework. O Banco de Dados está setado para o DB_Name de crud e utiliza o usuário como crud e senha crud123. Então para a utilização do sistema é necessário a criação do banco de dados, ou então a utilização do Artisan para migrar as tabelas.
+O sistema foi desenvolvido utilizando o pattern MVC tendo o Laravel como Framework. O Banco de Dados está setado para o DB_Name de crud e utiliza o usuário como crud e senha crud123. Então para a utilização do sistema é necessário a criação do banco de dados, ou então a utilização do Artisan para migrar as tabelas.
 
-A lógica do sistema é muito simples, foi utilizado o próprio sistema de rotas do Lavarel para todas as funcionalidades do CRUD.
+A lógica do sistema é muito simples, foi utilizado o próprio sistema de rotas do Laravel para todas as funcionalidades do CRUD.
 Optei por utilizar uma biblioteca do Jquery, o DataTables para fazer as consultas e paginação por questão de tempo.
 
 Todos as funcionalidades para os registros é feito através de acesso por rotas diretamente no backend, com excessão do método deletar que é utilizado uma requisição AJAX.
